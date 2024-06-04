@@ -14,17 +14,11 @@
     margin: 1px 0px 4px 0px;
 }
 
-/* .user-card-body {
-    width: 187px;
-    height: 34.5px;
-    background-color: yellow;
-    line-height: 34.5px;
-} */
-
 .user-card-body-image {
     width: 32px;
     height: 32px;
     float: left;
+    /*float意味着使用块布局,disblock 加在div上不能加在img上*/
 }
 
 .user-card-body-image img {
@@ -38,7 +32,6 @@
     height: 34.5px;
     margin: 0px 0px 0px 8px;
     float: left;
-
 }
 
 .user-card-body-username {
@@ -65,8 +58,10 @@
     height: 6px;
     background-color: #D1A684;
     border-radius: 3px;
+    /* 把小圆点 变成一行float发现 不占位跑走了，用inline-block 而且width height也有效*/
     display: inline-block;
     margin: 0px 3px 0px 2px;
+    /* 把小圆点 往下偏移*/
     position: relative;
     top: -2px;
 
@@ -77,8 +72,10 @@
     height: 6px;
     background-color: #B4B8BC;
     border-radius: 3px;
+    /* 把小圆点 变成一行float发现 不占位跑走了，用inline-block 而且width height也有效*/
     display: inline-block;
     margin: 0px 3px 0px 2px;
+    /* 把小圆点 往下偏移*/
     position: relative;
     top: -2px;
 }

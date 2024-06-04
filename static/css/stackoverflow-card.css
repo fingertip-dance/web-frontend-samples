@@ -1,0 +1,84 @@
+.user-card {
+    width: 200px;
+    height: 67.19px;
+    background-color: #EDF5FD;
+    padding: 5px 6px 7px 7px;
+    box-sizing: border-box;
+}
+
+.user-card-head {
+    width: 187px;
+    height: 15.69px;
+    font-size: 13px;
+    color: #636B74;
+    margin: 1px 0px 4px 0px;
+}
+
+/* .user-card-body {
+    width: 187px;
+    height: 34.5px;
+    background-color: yellow;
+    line-height: 34.5px;
+} */
+
+.user-card-body-image {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.user-card-body-image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.user-card-body-info {
+    width: 147px;
+    height: 34.5px;
+    margin: 0px 0px 0px 8px;
+    float: left;
+
+}
+
+.user-card-body-username {
+    width: 147px;
+    height: 16px;
+    color: #1B75D0;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.user-card-body-repution {
+    width: 147px;
+    height: 16px;
+    color: #636B74;
+    font-size: 13px;
+}
+
+.user-card-body-username>a {
+    text-decoration: none;
+}
+
+.user-card-body-repution-item1 {
+    width: 6px;
+    height: 6px;
+    background-color: #D1A684;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 3px 0px 2px;
+    position: relative;
+    top: -2px;
+
+}
+
+.user-card-body-repution-item2 {
+    width: 6px;
+    height: 6px;
+    background-color: #B4B8BC;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 3px 0px 2px;
+    position: relative;
+    top: -2px;
+}
